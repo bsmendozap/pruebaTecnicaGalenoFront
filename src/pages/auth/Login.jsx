@@ -32,7 +32,7 @@ const Login = () => {
         localStorage.setItem("usuario", JSON.stringify(data.usuario));
       }
 
-      navigate("/dashboard");
+      navigate("/products");
     } catch (error) {
       console.error(error);
       setError("Correo o contraseña incorrectos");
